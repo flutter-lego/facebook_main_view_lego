@@ -158,7 +158,7 @@ class _PostItemViewState extends State<PostItemView> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 SvgPicture.asset(
-                                  'assets/view/facebook_main_view/thumb-up-outline.svg',
+                                  'assets/lego/facebook_main_view_lego/thumb-up-outline.svg',
                                   width: 20,
                                   colorFilter: ColorFilter.mode(
                                     Colors.grey.shade600,
@@ -186,7 +186,7 @@ class _PostItemViewState extends State<PostItemView> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 SvgPicture.asset(
-                                  'assets/view/facebook_main_view/message-circle.svg',
+                                  'assets/lego/facebook_main_view_lego/message-circle.svg',
                                   width: 20,
                                   colorFilter: ColorFilter.mode(
                                     Colors.grey.shade600,
@@ -214,7 +214,7 @@ class _PostItemViewState extends State<PostItemView> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 SvgPicture.asset(
-                                  'assets/view/facebook_main_view/share-outline.svg',
+                                  'assets/lego/facebook_main_view_lego/share-outline.svg',
                                   width: 20,
                                   colorFilter: ColorFilter.mode(
                                     Colors.grey.shade600,

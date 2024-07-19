@@ -64,7 +64,7 @@ class _HomeViewState extends State<HomeView> {
                             ElevatedButton.icon(
                               onPressed: () => print('Live'),
                               icon: SvgPicture.asset(
-                                'assets/view/facebook_main_view/video-image.svg',
+                                'assets/lego/facebook_main_view_lego/video-image.svg',
                                 width: 20,
                                 colorFilter: ColorFilter.mode(
                                     Colors.red, BlendMode.colorBurn),
