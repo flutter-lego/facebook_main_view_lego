@@ -1,9 +1,9 @@
 name: facebook_main_view_lego
-description: "Facebook Main View Lego by June"
+description: "lego is all you need"
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/facebook_main_view_lego
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -11,9 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  june_flow_util:
+  june_flow_util: #@add
   styled_widget: #@add
   modal_bottom_sheet: #@add
+  gap: #@add
   flutter_svg: #@add
 
 dev_dependencies:

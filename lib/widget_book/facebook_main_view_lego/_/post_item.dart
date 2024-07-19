@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:styled_widget/styled_widget.dart';
 
-import '../../../../../../../../../../../main.dart';
 import 'avatar_image.dart';
 
 class PostItemView extends StatefulWidget {
@@ -96,9 +95,9 @@ class _PostItemViewState extends State<PostItemView> {
             ),
             widget.imageUrl != null
                 ? Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: Image.network(widget.imageUrl!),
-            )
+                    padding: const EdgeInsets.symmetric(vertical: 8.0),
+                    child: Image.network(widget.imageUrl!),
+                  )
                 : const SizedBox.shrink(),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12.0),
@@ -153,7 +152,7 @@ class _PostItemViewState extends State<PostItemView> {
                           },
                           child: Container(
                             padding:
-                            const EdgeInsets.symmetric(horizontal: 12.0),
+                                const EdgeInsets.symmetric(horizontal: 12.0),
                             height: 25.0,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -181,7 +180,7 @@ class _PostItemViewState extends State<PostItemView> {
                           },
                           child: Container(
                             padding:
-                            const EdgeInsets.symmetric(horizontal: 12.0),
+                                const EdgeInsets.symmetric(horizontal: 12.0),
                             height: 25.0,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -209,7 +208,7 @@ class _PostItemViewState extends State<PostItemView> {
                           },
                           child: Container(
                             padding:
-                            const EdgeInsets.symmetric(horizontal: 12.0),
+                                const EdgeInsets.symmetric(horizontal: 12.0),
                             height: 25.0,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -245,12 +244,12 @@ main() async {
   return runApp(MaterialApp(
     home: PostItemView(
       userImage:
-      "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
+          "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
       username: "User Name",
       caption: "Caption",
       timeAgo: "2 hours ago",
       imageUrl:
-      "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
+          "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp",
       likes: "100",
       comments: "20",
       shares: "10",
